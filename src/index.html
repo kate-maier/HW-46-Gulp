@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/css/style.min.css">
+    <title>Інтернет-магазин</title>
+</head>
+
+<body>
+    <div id="forBundleTest"></div>
+    <div class="mainContainer">
+        <div class="container">
+            <h2>Каталог</h2>
+
+            <ul id="mainCatalog">
+                <li class="catalogItem" data-block="smartphones">Смартфони</li>
+                <li class="catalogItem" data-block="laptops">Ноутбуки</li>
+                <li class="catalogItem" data-block="televisors">Телевізори</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Товари</h2>
+            <ul id="smartphones" class="products">
+                <li data-block="iPhone" class="productCard">iPhone 14 Pro Max</li>
+                <li data-block="xiaomi" class="productCard">Xiaomi Redmi Note 12 Pro</li>
+            </ul>
+
+            <ul id="laptops" class="products">
+                <li data-block="apple" class="productCard">APPLE MacBook Air 15</li>
+                <li data-block="lenovo" class="productCard">Lenovo Ideapad Gaming 3 15IHU6/li>
+                <li data-block="asus" class="productCard">ASUS M6500QH-HN081</li>
+            </ul>
+
+            <ul id="televisors" class="products">
+                <li data-block="samsung" class="productCard">Телевізор SAMSUNG QE50Q60BAUXUA</li>
+                <li data-block="lg" class="productCard">Телевізор LG 50UQ81006LB</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Інформація про товар</h2>
+            <div id="productsInfoCards">
+                <p id="iPhone" class="productInfo">Як в попередньому поколінні, iPhone 14 Pro Max найбільший та
+                    найавтономніший смартфон лінійки Pro. Діагональ дисплея пристрою становить 6,7 дюймів, виконаний за
+                    технологією OLED Super Retina XDR. Саме на дисплеї видно найбільшу інновацію 2022 року в смартфонах
+                    Apple для покращення взаємодії з користувачем «Dynamic Island».</p>
+                <p id="xiaomi" class="productInfo">Смартфон Xiaomi Redmi Note 12 Pro має якості справжнього лідера в
+                    всьому. Передова камера професійного рівня 108 Мп дарує чудові можливості для фото та відео зйомки.
+                    Насолоджуйтесь супер-чіткою та яскравою картинкою на 6.67-дюймовому FHD AMOLED дисплеї з частотою
+                    оновлення 120 Гц.</p>
+                <p id="apple" class="productInfo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
+                    tenetur adipisci omnis eos vel in?</p>
+                <p id="lenovo" class="productInfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    laborum, dolorem repudiandae laboriosam voluptas officia voluptate, libero, corrupti adipisci in
+                    harum eos et nobis nostrum.</p>
+                <p id="asus" class="productInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+                    deserunt facere beatae maiores quas corrupti molestias animi laborum modi magni quod doloremque,
+                    dolorum necessitatibus rerum qui fuga blanditiis, esse ipsam.</p>
+                <p id="samsung" class="productInfo">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <p id="lg" class="productInfo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, nisi,
+                    laboriosam qui delectus iusto mollitia omnis necessitatibus ex accusantium blanditiis hic non,
+                    molestias rem ipsum.</p>
+
+                <button class="buyBtn" id="buyBtn">Купити</button>
+            </div>
+        </div>
+    </div>
+    <script src="../dist/bundle.min.js"></script>
+</body>
+
+</html>
